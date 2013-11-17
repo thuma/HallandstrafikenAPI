@@ -106,8 +106,8 @@ foreach($all as $key => $station)
 		$htmldelar = preg_split("/'/",$htmldelar[1]);
 		$xymix = preg_split("/&|=/",$htmldelar[1]);
 		$rt90 = new stdClass();
-		$rt90->x = $xymix[6];
-		$rt90->y = $xymix[4];
+		$rt90->x = $xymix[4];
+		$rt90->y = $xymix[6];
 		$coord = new stdClass();
 		$coord->rt90 = $rt90;
 		$all[$key]->position = $coord;
