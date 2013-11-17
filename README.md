@@ -1,0 +1,4 @@
+HallandstrafikenAPI
+===================
+
+Hallandstrafiken stop API
